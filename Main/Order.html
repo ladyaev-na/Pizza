@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../General/General.css">
+    <link rel="stylesheet" href="Order.css">
+</head>
+<body>
+<header>
+    <img src="../General/logo.png" alt="">
+    <ul>
+        <li><a href="Main.html">меню</a></li>
+        <li><a href="Company.html">о компании</a></li>
+        <li><a href="Contacts.html">контакты</a></li>
+        <li><a href="#">отследить заказ</a></li>
+    </ul>
+    <div class="number">
+        <p>+7 3822 990 255</p>
+        <p>Бесплатная доставка<br>
+            по Томску от 400 ₽</p>
+    </div>
+</header>
+
+<section>
+    <div class="teg">
+        <div class="flex">
+            <h2 id="tracking">Трекинг</h2>
+            <p id="again" class="again">Возможно вы неправильно его указали. Попробуйте еще раз.</p>
+            <p>Введите телефон</p>
+            <input type="text" onkeyup="return proverka(this);" placeholder="  +7(___)-___-__-__">
+        </div>
+        <button id="ok" onclick="qw()">ОК</button>
+    </div>
+</section>
+
+<footer>
+    <div class="fl">
+        <img src="../General/logo.png" alt="">
+        <ul>
+            <li><a href="Main.html">меню</a></li>
+            <li><a href="Company.html">о компании</a></li>
+            <li><a href="Contacts.html">контакты</a></li>
+            <li><a href="#">отследить заказ</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p>© 2023 «Пицце-Рио». Все права защищены.</p>
+        <p>+7 3822 99 02 55</p>
+    </div>
+</footer>
+<script src="JavaScript.js"></script>
+</body>
+</html>

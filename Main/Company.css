@@ -1,0 +1,123 @@
+header > ul > li:nth-child(2) > a{
+    color: rgba(60, 60, 60, 0.7);
+}
+section{
+    padding: 100px 0 200px 240px;
+    align-items: center;
+    background: #198f30;
+    background-image: url("imajeGeneral/Clip path group.png");
+}
+section > h2{
+    font-family: "Semibold";
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+section > .wrapper{
+    width: 1420px;
+    border-radius: 9px;
+    background: white;
+    padding: 10px;
+}
+section > .wrapper > .flex{
+    display: flex;
+}
+.flex-sliders{
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.slider{
+    width: 950px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 600px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 1210px;
+    height: 600px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 750px;
+    display: flex;
+    padding-left: 15px;
+    margin-bottom: 571px;
+    margin-left: 786px;
+}
+.manual-btn{
+    border: 2px solid yellow;
+    padding: 5px;
+    margin-top: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: yellow;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -32.5%;
+}
+.bloc1-card{
+    width: 1420px;
+    padding: 100px  0 50px 0;
+}
+.wrapper > .flex > .text{
+    width: 370px;
+    height: 600px;
+    margin-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.wrapper > .flex > .text > h3{
+    font-family: "Semibold";
+    font-size: 25px;
+    padding: 100px 0 300px 0;
+}
+.wrapper > .flex > .text > p{
+    font-family: "Light";
+    font-size: 15px;
+}
+.wrapper > .flex > .textt{
+    width: 550px;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+}
+.wrapper > .flex > .textt > h1{
+    font-family: "Antropos";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.wrapper > .flex > .textt > p{
+    font-family: "Semibold";
+    font-size: 18px;
+}
+.wrapper > .flex > .textt > .padtop{
+    padding: 50px 0 0 0;
+}

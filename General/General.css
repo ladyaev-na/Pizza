@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Antropos";
+    src: url("fonts/Antropos  Freefont.ttf");
+}
+@font-face {
+    font-family: "Semibold";
+    src: url("fonts/SegoeUI-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Light";
+    src: url("fonts/SegoeUI-Light.ttf");
+}
+@font-face {
+    font-family: "Lexington";
+    src: url("fonts/LexingtonC.ttf");
+}
+@font-face {
+    font-family: "Bolditalic";
+    src: url("fonts/SegoeUI-Bolditalic.ttf");
+}
+header{
+    background: white;
+    display: flex;
+}
+header > img{
+    width: 300px;
+    height: 100px;
+    padding-left: 250px;
+}
+header > ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+header > ul > li{
+    padding-left: 50px;
+}
+header > ul > li > a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+    font-family: "Antropos";
+}
+header > ul > li > a:hover{
+    border-bottom: 3px solid green;
+    color: mediumseagreen;
+}
+header > .number{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+header > .number > p:nth-child(1){
+    color: orange;
+    font-weight: 900;
+    font-family: "Semibold";
+}
+header > .number > p:nth-child(2){
+    font-family: "Light";
+    text-align: end;
+}
+footer{
+    background: #198f30;
+}
+footer > .fl{
+    display: flex;
+}
+footer > .fl > img{
+    width: 300px;
+    height: 100px;
+    padding-left: 250px;
+}
+footer > .fl > ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+footer > .fl > ul > li{
+    padding-left: 50px;
+}
+footer > .fl > ul > li > a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #111;
+    font-family: "Antropos";
+}
+footer > .fl > ul > li > a:hover{
+   color: white;
+}
+footer > .contact{
+    display: flex;
+    padding: 100px 0 0 268px;
+    font-size: 20px;
+    color: #fff;
+}
+footer > .contact > p:nth-child(1){
+    padding-right: 870px;
+}

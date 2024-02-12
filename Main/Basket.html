@@ -1,0 +1,72 @@
+<!doctype html>
+ <html lang="ru">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <link rel="stylesheet" href="../General/General.css">
+       <link rel="stylesheet" href="Basket.css">
+       <title>Document</title>
+   </head>
+   <body>
+     <header>
+         <img src="../General/логотип 2 .png" alt="">
+         <ul>
+             <li><a href="Main.html">меню</a></li>
+             <li><a href="Company.html">о компании</a></li>
+             <li><a href="#">контакты</a></li>
+             <li><a href="Order.html">отследить заказ</a></li>
+         </ul>
+         <div class="number">
+             <p>+7 3822 990 255</p>
+             <p>Бесплатная доставка<br>
+                 по Томску от 400 ₽</p>
+         </div>
+     </header>
+
+     <section>
+         <div class="block">
+             <h1>Корзина</h1>
+             <h2>Ваша корзина пуста</h2>
+             <p>Воспользуйтесь меню, чтобы заказать доставку свежих и вкусных блюд от ПиццеРио</p>
+             <button>Перейти в меню</button>
+         </div>
+         <div class="block">
+             <div class="card">
+                 <div class="button">
+                     <button data-title="Доставка возможна при заказе на сумму от 400 рублей" class="btnsale">доставка</button>
+                     <button>самовывоз</button>
+                 </div>
+                 <p>Введите номер телефона</p>
+                 <input type="text" class="adres" onkeyup="return proverka(this);" placeholder="  +7(_ _ _) - _ _ _ - _ _ - _ _">
+                 <p>Адрес самовывоза</p>
+                 <input type="text" class="adres" placeholder="  ул. Красноармейская, 135, пл. Южная">
+                 <p>Способ оплаты</p>
+                 <input type="radio" id="contact1" name="contact" value="mail">
+                 <label for="contact1">Оплата наличными в зале</label>
+                 <br>
+                 <input type="radio" id="contact2" name="contact" value="mail">
+                 <label for="contact2">Оплата пластиковой картой в зале</label>
+                 <button>Зарегистрировать заказ</button>
+             </div>
+         </div>
+     </section>
+
+     <footer>
+         <div class="fl">
+             <img src="../General/логотип 2 .png" alt="">
+             <ul>
+                 <li><a href="Main.html">меню</a></li>
+                 <li><a href="Company.html">о компании</a></li>
+                 <li><a href="#">контакты</a></li>
+                 <li><a href="Order.html">отследить заказ</a></li>
+             </ul>
+         </div>
+         <div class="contact">
+             <p>© 2023 «Пицце-Рио». Все права защищены.</p>
+             <p>+7 3822 99 02 55</p>
+         </div>
+     </footer>
+     <script src="JavaScript.js"></script>
+   </body>
+</html>

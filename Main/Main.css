@@ -1,0 +1,214 @@
+header > ul > li:nth-child(1) > a{
+    color: rgba(60, 60, 60, 0.7);
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 10px;
+    height: 50px;
+}
+.menu > ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu > ul > li{
+    padding-right: 35px;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+    font-family: "Semibold";
+    font-size: 20px;
+    color: #111;
+}
+.menu > ul > li > a:hover{
+    color: #198f30;
+}
+.menu > a{
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Semibold";
+}
+.menu button:hover{
+    background: rgba(255, 99, 71, 0.8);
+}
+
+section{
+    padding-left: 240px;
+    align-items: center;
+    background: #198f30;
+    background-image: url("imajeGeneral/Clip path group.png");
+}
+section > .wrapper{
+    width: 1420px;
+}
+
+
+
+.flex-sliders{
+    margin: 0;
+    padding: 100px 100px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 600px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 1210px;
+    height: 600px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid blue;
+    padding: 5px;
+    margin-top: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: blue;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -32.5%;
+}
+
+.button-top::after{
+    content: '';
+
+}
+
+.bloc1-card{
+    width: 1420px;
+    padding: 100px  0 50px 0;
+}
+.bloc1-card > h1{
+    font-family: "Semibold";
+    font-size: 40px;
+    color: white;
+}
+.cards{
+    display: flex;
+    padding-top: 50px;
+}
+.card{
+    border-radius: 8px;
+    width: 394px;
+    height: 600px;
+    background: white;
+    transition: .2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.mar{
+    margin: 0 119px;
+}
+.card img{
+    border-radius: 8px 8px 0 0;
+}
+.card > .text{
+    padding: 30px;
+    height: 155px;
+}
+.card > .text h2{
+    font-family: "Antropos";
+    padding-bottom: 10px;
+}
+.card > .text p{
+    font-family: "Semibold";
+    font-size: 16px;
+}
+.card > .background{
+    display: flex;
+    background: rgba(220, 220, 220, 0.8);
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.card > .background button:nth-child(2){
+    background: rgba(220, 220, 220, 0.1);
+}
+.card > .background button{
+    width: 1670px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lexington";
+    cursor: pointer;
+}
+.card > .background button:nth-child(2){
+    margin-left: 5px;
+}
+.card > .price{
+    margin: 10px 0 0 20px;
+    display: flex;
+    align-items: center;
+}
+.card > .price > button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    color: white;
+    font-family: "Semibold";
+    font-size: 20px;
+    cursor: pointer;
+}
+.card > .price > p{
+    padding-left: 145px;
+    font-family: "Semibold";
+    font-size: 20px;
+}
+.none{
+    height: 50px;
+}

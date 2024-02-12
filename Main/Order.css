@@ -1,0 +1,60 @@
+header > ul > li:nth-child(4) > a{
+    color: rgba(60, 60, 60, 0.7);
+}
+section{
+    padding: 100px 0 190px 0;
+    align-items: center;
+    background: #198f30;
+    background-image: url("imajeGeneral/Clip path group.png");
+}
+.teg{
+    width: 1240px;
+    background: white;
+    margin: 40px 0 0 310px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.teg > .flex > h2{
+    font-family: "Antropos";
+}
+.teg > .flex > p{
+    padding: 20px 0 10px 0;
+    font-family: "Light";
+    font-weight: bold;
+}
+.teg > .flex > input{
+    width: 245px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    padding: 5px;
+    background: url("images4/flag.png") 210px 10px no-repeat;
+}
+.teg > .flex > input::placeholder {
+    visibility: hidden;
+}
+.teg > .flex > input:hover::placeholder {
+    visibility: visible;
+}
+.teg > .flex > input:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+.teg > button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: #ff991f;
+    margin: 20px 0 10px 0;
+    color: white;
+    font-family: "BoldItalic";
+}
+.teg > button:hover{
+    cursor: pointer;
+    background: rgb(255, 153, 31, 0.7);
+}
+.again{
+    display: none;
+}

@@ -1,0 +1,121 @@
+section{
+    padding: 100px 0 14.2vh 240px;
+    align-items: center;
+    background: #198f30;
+    display: flex;
+    background-image: url("imajeGeneral/Clip path group.png");
+}
+
+section > .block{
+    width: 700px;
+    height: 360px;
+}
+section > .block:nth-child(1) > h1{
+    color: #fff;
+    font-family: "Light";
+    font-size: 40px;
+}
+section > .block:nth-child(1) > h2{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Light";
+    padding: 50px 0;
+}
+section > .block:nth-child(1) > p{
+    font-family: "Light";
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+section > .block:nth-child(1) > button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: orange;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Bolditalic";
+}
+section > .block:nth-child(2){
+     width: 700px;
+ }
+section > .block:nth-child(2) > .card{
+    width: 320px;
+    height: 330px;
+    margin-left: 370px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+section > .block:nth-child(2) > .card > .button{
+    width: 94%;
+    background: gainsboro;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px;
+}
+section > .block:nth-child(2) > .card > .button > button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    color: rgba(111, 111, 111, 0.9);
+    border-radius: 8px;
+    background: gainsboro;
+}
+section > .block:nth-child(2) > .card > .button > button:nth-child(2){
+    margin-left: 4px;
+    background: #f0f0f0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btnsale:hover::after {
+    content: attr(data-title);
+    z-index: 1;
+    background: #fff;
+    border: 2px solid gainsboro;
+    border-radius: 9px;
+    position: absolute;
+    top: 295px;
+    padding: 25px;
+    right: 525px;
+    font-family: "Semibold";
+    width: 269px;
+}
+section > .block:nth-child(2) > .card > p{
+    padding: 8px 0 5px 0;
+    font-size: 18px;
+    font-family: "Light";
+    font-weight: 400;
+}
+section > .block:nth-child(2) > .card > .adres{
+    border: 2px solid gray;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+section > .block:nth-child(2) > .card > label{
+    color: #95a5a6;
+    font-size: 15px;
+    font-family: "Antropos";
+}
+#contact1:focus+label{
+    color: #333333;
+}
+#contact2:focus+label{
+    color: #333333;
+}
+section > .block:nth-child(2) > .card > button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: orange;
+    font-size: 20px;
+    font-family: "Bolditalic";
+    color: #fff;
+    margin-top: 20px;
+}

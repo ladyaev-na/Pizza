@@ -1,0 +1,1154 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="../General/General.css">
+    <title>Main</title>
+</head>
+<body>
+   <header>
+       <img src="../General/logo.png" alt="">
+       <ul>
+           <li><a href="#">меню</a></li>
+           <li><a href="Company.html">о компании</a></li>
+           <li><a href="Contacts.html">контакты</a></li>
+           <li><a href="Order.html">отследить заказ</a></li>
+       </ul>
+       <div class="number">
+           <p>+7 3822 990 255</p>
+           <p>Бесплатная доставка<br>
+               по Томску от 400 ₽</p>
+       </div>
+   </header>
+
+   <div class="menu">
+       <ul>
+           <li><a href="#navigationPizza">пицца</a></li>
+           <li><a href="#navigationPizzaBeri">пицца БЕРИ-ПЕКИ</a></li>
+           <li><a href="#navigationStock">закуски, соусы</a></li>
+           <li><a href="#navigationMexic">мексиканские блюда</a></li>
+           <li><a href="#navigationSalad">салаты</a></li>
+           <li><a href="#navigationSoups">супы</a></li>
+           <li><a href="#navigationCocktails">коктейли</a></li>
+           <li><a href="#navigationDesserts">десерты</a></li>
+           <li><a href="#navigationDrinks">напитки</a></li>
+       </ul>
+       <a href="Basket.html">корзина</a>
+   </div>
+
+   <section>
+       <div class="wrapper">
+           <div class="pizza">
+               <div class="flex-sliders">
+                   <div class="slider">
+                       <div class="slides">
+                           <input type="radio" name="radio-btn" id="radio1">
+                           <input type="radio" name="radio-btn" id="radio2">
+                           <input type="radio" name="radio-btn" id="radio3">
+                           <input type="radio" name="radio-btn" id="radio4">
+
+                           <div class="slide first">
+                               <img src="images1/sliderimage1.png" alt="">
+                           </div>
+                           <div class="slide">
+                               <img src="images1/sliderimage2.png" alt="">
+                           </div>
+                           <div class="slide">
+                               <img src="images1/sliderimage3.png" alt="">
+                           </div>
+                       </div>
+                       <div class="navigation-auto">
+                           <div class="auto-btn1"></div>
+                           <div class="auto-btn2"></div>
+                           <div class="auto-btn3"></div>
+                       </div>
+                   </div>
+                   <div class="navigation-manual">
+                       <label for="radio1" class="manual-btn"></label>
+                       <label for="radio2" class="manual-btn"></label>
+                       <label for="radio3" class="manual-btn"></label>
+                   </div>
+               </div>
+
+               <div class="bloc1-card">
+                   <div id="navigationPizza"></div>
+                   <h1>пицца</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/arizota.png" alt="">
+                           <div class="text">
+                               <h2>аризона</h2>
+                               <p>Спецпредложение от шеф-повара -
+                                   неделя OLD пицц. Действует до 02.04.2023
+                                   включительно.
+                                   Состав: курица, сыр Фета, свежие
+                                   шампиньоны, помидоры, укроп, сыр, соус
+                                   сырный, дрожжевое тесто.<br>
+                                   (В 100 гр.: 323 ккал/1358 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="arizona1" onclick="gram1_1_1()">625 г.</button>
+                               <button id="arizona2" onclick="gram1_1_2()">1250 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee1">520 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/sir.png" alt="">
+                           <div class="text">
+                               <h2>сырная</h2>
+                               <p>Состав: сыры Моцарелла, Дорблю,
+                                   Чеддер, Пармезан, Фета, чесночное
+                                   масло, сливочный соус, дрожжевое тесто.<br>
+                                   (В 100 гр.: 255 ккал/1066 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="chesh1" onclick="gram1_2_1()">600 г.</button>
+                               <button id="chesh2" onclick="gram1_2_2()">1200 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee2">585 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/arkanzas.png" alt="">
+                           <div class="text">
+                               <h2>арканзас</h2>
+                               <p>Состав: рваная свинина, помидоры, сыр,
+                                   лук красный маринованный, лук фри,
+                                   перец халапеньо, чесночное масло, соус
+                                   чипотле, дрожжевое тесто.<br>
+                                   (В 100 гр.: 290 кКал/1214 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="arcanzas1" onclick="gram1_3_1()">665 г.</button>
+                               <button id="arcanzas2" onclick="gram1_3_2()">1330 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee3">585 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/dgordgia.png" alt="">
+                           <div class="text">
+                               <h2>джорджия</h2>
+                               <p>Состав: кальмары, помидоры, сыр,
+                                   оливки, соус бешамель с пастой из
+                                   морепродуктов, соус унаги, дрожжевое
+                                   тесто.<br>
+                                   (В 100 гр.: 238 ккал/997 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="dzord1" onclick="gram2_1_1()">685 г.</button>
+                               <button id="dzord2" onclick="gram2_1_2()">1370 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee4">585 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/migan.png" alt="">
+                           <div class="text">
+                               <h2>мичиган</h2>
+                               <p>Состав: маринованная говядина, грибы
+                                   свежие, копченая индейка, помидоры,
+                                   сыр, соус тар-тар, дрожжевое тесто.<br>
+                                   (В 100 гр.: 314 ккал/1314 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button  id="michigan1" onclick="gram2_2_1()">680 г.</button>
+                               <button  id="michigan2" onclick="gram2_2_2()">1360 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee5">585 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/peperoni.png" alt="">
+                           <div class="text">
+                               <h2>пепперони</h2>
+                               <p>Состав: колбаса пепперони, огурцы
+                                   маринованные, сыр, перец халапеньо,
+                                   томатный соус, дрожжевое тесто.<br>
+                                   (В 100 гр.: 330 ккал/1382 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="peperoni1" onclick="gram2_3_1()">585 г.</button>
+                               <button id="peperoni2" onclick="gram2_3_2()">1170 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee6">554 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/manxetten.png" alt="">
+                           <div class="text">
+                               <h2>манхэттен</h2>
+                               <p>Состав: колбаса, грибы свежие,
+                                   помидоры, маслины, сыр, соус томатный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 304 ккал/1270 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="manxetan1" onclick="gram3_1_1()">690 г.</button>
+                               <button id="manxetan2" onclick="gram3_1_2()">1380 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee7">550 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/gavai.png" alt="">
+                           <div class="text">
+                               <h2>гавайи</h2>
+                               <p>Состав: куриное филе, грибы свежие,
+                                   ананас, сыр, кунжут, петрушка, соус
+                                   пикантный, дрожжевое тесто.<br>
+                                   (В 100 гр.: 239 ккал/1002 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="gavayu1" onclick="gram3_2_1()">680 г.</button>
+                               <button id="gavayu2" onclick="gram3_2_2()">1360 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee8">510 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/venesuala.png" alt="">
+                           <div class="text">
+                               <h2>венесуэла</h2>
+                               <p>Состав: грибная икра, сыр Фета,
+                                   брокколи, помидоры, маслины, сыр,
+                                   укроп, лук, соус сырный и томатный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 302 ккал/1263 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="venesualla1" onclick="gram3_3_1()">700 г.</button>
+                               <button id="venesualla2" onclick="gram3_3_2()">1400 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee9">520 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/nyou.png" alt="">
+                           <div class="text">
+                               <h2>нью-Джерси</h2>
+                               <p>Состав: копченая индейка, колбаса п/к,
+                                   ветчина, болгарский перец, помидоры,
+                                   сыр, оливки, петрушка, пикантный соус,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр: 320 Ккал/1340 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="new1" onclick="gram4_1_1()">690 г.</button>
+                               <button id="new2" onclick="gram4_1_2()">1380 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee10">550 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/cantri.png" alt="">
+                           <div class="text">
+                               <h2>кантри</h2>
+                               <p>Состав: курица, ветчина, сыр, помидоры,
+                                   маслины, NEW соус ранч, соус сырный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 320 ккал/1340 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="cantri1" onclick="gram4_2_1()">640 г.</button>
+                               <button id="cantri2" onclick="gram4_2_2()">1280 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee11">565 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/texas.png" alt="">
+                           <div class="text">
+                               <h2>техас</h2>
+                               <p>Состав: курица, ветчина, куриные
+                                   колбаски, помидоры, огурцы
+                                   маринованные, сыр, соус тар-тар, укроп,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 348 ккал/1456 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="texas1" onclick="gram4_3_1()">680 г.</button>
+                               <button id="texas2" onclick="gram4_3_2()">1360 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee12">585 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+               <div class="bloc1-card">
+                   <div id="navigationPizzaBeri"></div>
+                   <h1>пицца БЕРИ-ПЕКИ</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>сырная БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: сыры Моцарелла, Дорблю,
+                                   Чеддер, Пармезан, Фета, чесночное
+                                   масло, сливочный соус, дрожжевое тесто.<br>
+                                   (В 100 гр.: 255 ккал/1066 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>535 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>арканзас БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: рваная свинина, помидоры, сыр,
+                                   лук красный маринованный, лук фри,
+                                   перец халапеньо, чесночное масло, соус
+                                   чипотле, дрожжевое тесто.<br>
+                                   (В 100 гр.: 290 кКал/1214 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>535 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>пепперони БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: колбаса пепперони, огурцы
+                                   маринованные, сыр, перец халапеньо,
+                                   томатный соус, дрожжевое тесто.<br>
+                                   (В 100 гр.: 330 ккал/1382 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>585 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>манхэттен БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: колбаса, свежие грибы,
+                                   помидоры, маслины, сыр, соус томатный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 304 ккал/1270 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>500 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>гавайи БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: куриное филе, свежие грибы,
+                                   ананас, сыр, кунжут, соус пикантный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 239 ккал/1002 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>585 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>венесуэла БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: грибная икра, сыр Фета,
+                                   брокколи, помидоры, маслины, сыр, лук,
+                                   соус сырный и томатный, дрожжевое
+                                   тесто.<br>
+                                   (В 100 гр.: 302 ккал/1263 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>495 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>нью-джерси БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: копченая индейка, колбаса п/к,
+                                   ветчина, болгарский перец, помидоры,
+                                   сыр, оливки, пикантный соус, дрожжевое
+                                   тесто.<br>
+                                   (В 100 гр: 320 Ккал/1340 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>495 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>кантри БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в
+                                   домашних условиях.
+                                   Состав: курица, ветчина, сыр, помидоры,
+                                   маслины, NEW соус ранч, соус сырный,
+                                   дрожжевое тесто.<br>
+                                   (В 100 гр.: 320 ккал/1340 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>515 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/boxpiz.png" alt="">
+                           <div class="text">
+                               <h2>Техас БЕРИ-ПЕКИ</h2>
+                               <p>Заготовка пиццы для выпекания в домашних условиях.
+                                   Состав: курица, ветчина, куриные колбаски,
+                                   помидоры, огурцы маринованные, сыр,
+                                   соус тар-тар, дрожжевое тесто.
+                                   <br>(В 100 гр.: 348 ккал/1456 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>535 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+               <div class="bloc1-card">
+                   <div id="navigationStock"></div>
+                   <h1>закуски, соусы</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/sauce0.png" alt="">
+                           <div class="text">
+                               <h2>сырная тортилья</h2>
+                               <p>150 г. Состав: запеченная пресная
+                                   лепешка под сыром, сырный соус и
+                                   орегано.<br>
+                                   (В 100 гр.: 380 ккал/1589 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>157 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/sauce1.png" alt="">
+                           <div class="text">
+                               <h2>соус Чипотле</h2>
+                               <p>(В 100 гр.: 71 кКал/296 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="chipotle1" onclick="gram5_1_1()">30 г.</button>
+                               <button id="chipotle2" onclick="gram5_1_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee13">25 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/sauce2.png" alt="">
+                           <div class="text">
+                               <h2>соус сырный</h2>
+                               <p>(В 100 гр.: 542 ккал/2276 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button  id="chis1" onclick="gram5_2_1()">30 г.</button>
+                               <button  id="chis2" onclick="gram5_2_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee14">25 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/sauce3.png" alt="">
+                           <div class="text">
+                               <h2>соус Сальса фирменный</h2>
+                               <p>(В 100 гр.: 100 ккал/419 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="salse1" onclick="gram6_1_1()">30 г.</button>
+                               <button id="salse2" onclick="gram6_1_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee15">25 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/sauce4.png" alt="">
+                           <div class="text">
+                               <h2>соус Сальса классический</h2>
+                               <p>(В 100 гр.: 43 ккал/182 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="clasic1" onclick="gram6_2_1()">30 г.</button>
+                               <button id="clasic2" onclick="gram6_2_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee16">25 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/sauce5.png" alt="">
+                           <div class="text">
+                               <h2>соус Тар-тар</h2>
+                               <p>(В 100 гр.: 589 ккал/2473 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="tartar1" onclick="gram6_3_1()">30 г.</button>
+                               <button id="tartar2" onclick="gram6_3_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee17">25 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/sauce6.png" alt="">
+                           <div class="text">
+                               <h2>Кетчуп / Майонез / Сметана</h2>
+                               <p>30 г. / Кетчуп (В 100 гр.: 55 ккал/230 кДж) /<br>
+                                   Майонез В 100 гр.: 423 ккал/1776 кДж) /<br>
+                                   Сметана (В 100 гр.: 117 ккал/484 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="general1" onclick="gram7_1_1()">30 г.</button>
+                               <button id="general2" onclick="gram7_1_2()">60 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee18">60 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+               <div class="bloc1-card">
+                   <div id="navigationMexic"></div>
+                   <h1>мексиканские блюда</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/mexic1.png" alt="">
+                           <div class="text">
+                               <h2>рио ролл</h2>
+                               <p>170 г. Состав: тортилья-гриль, копченая
+                                   индейка, творожный сыр, огурцы
+                                   маринованные, огурцы свежие, укроп, пикантный соус.<br>
+                                   (В 100 гр.: 273 ккал/1141 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>157 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/mexic2.png" alt="">
+                           <div class="text">
+                               <h2>соус Чипотле</h2>
+                               <p>170 г. Состав: тортилья-гриль, курица,
+                                   маринованная в соевом соусе, помидоры,
+                                   сыр, лист салата, соус горчичный.
+                                   Содержит аллерген - горчицу!<br>
+                                   (В 100 гр.: 279 ккал/1167 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>157 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/mexic3.png" alt="">
+                           <div class="text">
+                               <h2>кесадия с ветчиной и сыром</h2>
+                               <p>Состав: ветчина, помидоры, сыр, соус
+                                   сырный, пресная лепёшка.<br>
+                                   (В 100 гр.: 320 ккал/1330 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button id="vetcena1" onclick="gram8_3_1()">320 г.</button>
+                               <button id="vetcena2" onclick="gram8_3_2()">160 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p id="pricee19">227 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/mexic4.png" alt="">
+                           <div class="text">
+                               <h2>кесадия мясная</h2>
+                               <p>Состав: фарш, сыр, помидоры, соус
+                                   сырный, майонез, кетчуп, пресная
+                                   лепешка.<br>
+                                   (В 100 гр.: 320 ккал/1350 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button>300 г.</button>
+                               <button>150 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>227 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/mexic5.png" alt="">
+                           <div class="text">
+                               <h2>кесадия грибная</h2>
+                               <p>Состав: грибы, сыр, помидоры, маслины,
+                                   соус Чили, майонез, пресная лепешка.<br>
+                                   (В 100 гр.: 330 ккал/1400 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button>300 г.</button>
+                               <button>150 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>227 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/mexic6.png" alt="">
+                           <div class="text">
+                               <h2>кесадия куриная</h2>
+                               <p>Состав: курица, помидоры, перец
+                                   болгарский, сыр, соус, кетчуп, майонез с
+                                   зеленью, пресная лепешка.<br>
+                                   (В 100 гр.: 300 ккал/1260 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button>340 г.</button>
+                               <button>170 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>227 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/mexic7.png" alt="">
+                           <div class="text">
+                               <h2>энчиладос</h2>
+                               <p>Состав: курица, перец болгарский,
+                                   кукуруза, лук жареный, рис, сыр, соус
+                                   Чили, майонез, преcная лепешка. Соус на
+                                   ваш выбор: Сальса классический/Сальса
+                                   фирменный.<br>
+                                   (В 100 гр.: 210 ккал/880 кДж)</p>
+                           </div>
+                           <div class="background">
+                               <button>290/60 г.</button>
+                               <button>145/30 г.</button>
+                           </div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>227 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+               <div class="bloc1-card">
+                   <div id="navigationSalad"></div>
+                   <h1>салаты</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/salad1.png" alt="">
+                           <div class="text">
+                               <h2>нью-мехико</h2>
+                               <p>80/30 г. Состав:курица, сыр, яйцо,
+                                   горошек консервированный, сухарик,
+                                   чесночно-соевый соус.<br>
+                                   (В 100 гр.: 330 ккал/1380 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>107 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/salad2.png" alt="">
+                           <div class="text">
+                               <h2>сомбреро</h2>
+                               <p>80/20 г. Состав: копченая курица,
+                                   омлетная лента, свежий огурец, кукуруза
+                                   консервированная, маринованный
+                                   красный лук, чесночно-соевый соус.<br>
+                                   (В 100 гр.: 187 Ккал/784 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>107 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/salad3.png" alt="">
+                           <div class="text">
+                               <h2>флорида</h2>
+                               <p>90/10 г. Состав: помидоры, перец
+                                   болгарский, огурцы, пекинская капуста,
+                                   сыр Фета, маслины, масло растительное.<br>
+                                   (В 100 гр.: 150 ккал/630 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>107 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/salad4.png" alt="">
+                           <div class="text">
+                               <h2>лукас</h2>
+                               <p>90/10 г. Состав: маринованная говядина,
+                                   огурцы свежие, пекинская капуста, лук
+                                   красный маринованный, сухарики,
+                                   орехово-чесночная заправка.
+                                   Содержит аллерген - арахис!<br>
+                                   (В 100 гр.: 188 кКал/785 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>120 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/salad5.png" alt="">
+                           <div class="text">
+                               <h2>цезарь</h2>
+                               <p>85/25 г. Состав: курица, помидоры, яйцо
+                                   перепелиное, сыр пармезан, сухарики,
+                                   лист салата, пекинская капуста, соус
+                                   пикантный.
+                                   Содержит аллерген - горчицу!<br>
+                                   (В 100 гр.: 142 ккал/594 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>227 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+
+               <div class="bloc1-card">
+                   <div id="navigationSoups"></div>
+                   <h1>супы</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/soups1.png" alt="">
+                           <div class="text">
+                               <h2>техасская похлебка</h2>
+                               <p>200/30/2/2 г. Состав: куриный бульон,
+                                   куриные колбаски, фарш из говядины,
+                                   томаты в собственном соку, фасоль
+                                   красная, лук, перец болгарский, перец
+                                   халапеньо, петрушка. Подается с
+                                   кукурузными чипсами и сметаной.<br>
+                                   (В 100 гр.: 85 ккал/356 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>147 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/soups2.png" alt="">
+                           <div class="text">
+                               <h2>куриный бульон с куриным филе и яйцом</h2>
+                               <p>200/30/20/15 г. Состав: бульон с курицей, яйцо, сухарики. <br>
+                                   (В 100 гр.: 65,3 ккал/274 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>87 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/soups3.png" alt="">
+                           <div class="text">
+                               <h2>флорида</h2>
+                               <p>200/15 г. Состав: Сыр, грибы, картофель,
+                                   лук, сливки, зелень. Подается с
+                                   сухариками.<br>
+                                   (В 100 гр.: 210 ккал/882 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>107 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+               <div class="bloc1-card">
+                   <div id="navigationCocktails"></div>
+                   <h1>коктейли</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/cocktails1.png" alt="">
+                           <div class="text">
+                               <h2>малиновый</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением малинового сиропа.<br>
+                                   (В 100 гр.: 154 ккал/642 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/cocktails2.png" alt="">
+                           <div class="text">
+                               <h2>молочный</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока.<br>
+                                   (В 100 гр.: 120 ккал/505 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/cocktails3.png" alt="">
+                           <div class="text">
+                               <h2>с печеньем</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением размолотого печенья.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/cocktails4.png" alt="">
+                           <div class="text">
+                               <h2>шоколадный</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением шоколадного сиропа.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/cocktails2.png" alt="">
+                           <div class="text">
+                               <h2>банановый</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением банана.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/cocktails1.png" alt="">
+                           <div class="text">
+                               <h2>клубничный</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением клубничного сиропа.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/cocktails4.png" alt="">
+                           <div class="text">
+                               <h2>шоколадно-банановый</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением банана
+                                   и шоколадного сиропа.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/cocktails1.png" alt="">
+                           <div class="text">
+                               <h2>клубнично-банановый</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением банана
+                                   и клубничного сиропа.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>145 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+
+               <div class="bloc1-card">
+                   <div id="navigationDesserts"></div>
+                   <h1>десерты</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/desserts1.png" alt="">
+                           <div class="text">
+                               <h2>фирменный пончик с ванильной начинкой</h2>
+                               <p>80 г. (В 100 гр.: 174 ккал/729 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>97 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/desserts2.png" alt="">
+                           <div class="text">
+                               <h2>грехем</h2>
+                               <p>75 г. Состав: печенье, шоколадная
+                                   глазурь, сгущ. молоко, арахис, кокосовая
+                                   стружка.<br>
+                                   (В 100 гр.: 410 ккал/1722 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>87 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+               <div class="bloc1-card">
+                   <div id="navigationDrinks"></div>
+                   <h1>напитки</h1>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/drinks1.png" alt="">
+                           <div class="text">
+                               <h2>Evervess кола</h2>
+                               <p>Evervess кола</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>99 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/drinks2.png" alt="">
+                           <div class="text">
+                               <h2>Frustyle лимон-лайм</h2>
+                               <p>Frustyle лимон-лайм</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>99 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/drinks3.png" alt="">
+                           <div class="text">
+                               <h2>Frustyle апельсин</h2>
+                               <p>Frustyle апельсин</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>99 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="cards">
+                       <div class="card">
+                           <img src="images1/drinks4.png" alt="">
+                           <div class="text">
+                               <h2>adrenaline Rush 0,25 л</h2>
+                               <p>Энергетический напиток Adrenaline Rush 0,25 л</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>130 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card mar">
+                           <img src="images1/drinks5.png" alt="">
+                           <div class="text">
+                               <h2>морс 0,45 л</h2>
+                               <p>320 мл. Изготавливается на основе
+                                   мороженого и фермерского молока, с
+                                   добавлением банана.<br>
+                                   (В 100 гр.: 110 ккал/460 кДж)</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>97 ₽</p>
+                           </div>
+                       </div>
+                       <div class="card">
+                           <img src="images1/drinks6.png" alt="">
+                           <div class="text">
+                               <h2>Lipton ice tea 0,5 л</h2>
+                               <p>Lipton ice tea 0,5 л</p>
+                           </div>
+                           <div class="none"></div>
+                           <div class="price">
+                               <button>в корзину</button>
+                               <p>97 ₽</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <footer>
+      <div class="fl">
+          <img src="../General/logo.png" alt="">
+          <ul>
+              <li><a href="#">меню</a></li>
+              <li><a href="Company.html">о компании</a></li>
+              <li><a href="Contacts.html">контакты</a></li>
+              <li><a href="Order.html">отследить заказ</a></li>
+          </ul>
+      </div>
+       <div class="contact">
+           <p>© 2023 «Пицце-Рио». Все права защищены.</p>
+           <p>+7 3822 99 02 55</p>
+       </div>
+   </footer>
+   <script src="JavaScript.js"></script>
+</body>
+</html>
